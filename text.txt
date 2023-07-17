@@ -1,0 +1,103 @@
+react-jsx-dev-runtime.development.js:87 
+
+Warning: Each child in a list should have a unique "key" prop.
+
+Check the render method of `App`. See https://reactjs.org/link/warning-keys for more information.
+    at Movie (http://localhost:3000/static/js/bundle.js:303:5)
+    at App
+
+
+React is fast
+>Virtual DOM
+>reconcillation
+>diff alogorithm
+
+AddColor
+    >input
+    >button
+
+click on button
+
+
+Routing:
+npm i react-router-dom@6
+
+Hooks
+useNavigate()
+
+
+Task:
+AddMovie
+>Button=>Back
+>Button should take to Home Page
+
+
+useNavigate()
+
+Navigate=> Redirection
+
+
+2 things 
+1=> npm i confetti
+2=> restart
+
+useEffect()
+
+
+>
+Configure our Store in the App.
+
+Class Component:
+
+// Page Loading:
+
+// req=> Api Call=> render
+//req=> render=> API call
+
+
+Sequence:
+Constructor is called
+render Called
+Component Did Mount Called
+
+1:Child
+Parent-Constructor called
+Parent-render Called
+Child- Construcutor Called
+Child-render Called
+Child-Component Did Mount Called
+Parent-Component Did Mount Called
+
+2:Childs:
+Parent-Constructor called
+Parent-render Called
+First Child Child- Construcutor Called
+First Child Child-render Called
+Second Child Child- Construcutor Called
+Second Child Child-render Called
+First Child Child-Component Did Mount Called
+Second Child Child-Component Did Mount Called
+Parent-Component Did Mount Called
+
+3:Childs:
+Parent-Constructor called
+Parent-render Called
+First Child Child- Construcutor Called
+First Child Child-render Called
+Second Child Child- Construcutor Called
+Second Child Child-render Called
+Third Child Child- Construcutor Called
+Third Child Child-render Called
+First Child Child-Component Did Mount Called
+Second Child Child-Component Did Mount Called
+Third Child Child-Component Did Mount Called
+Parent-Component Did Mount Called
+
+API Call:
+Parent-Constructor called
+Parent-render Called
+First Child Child- Construcutor Called
+First Child Child-render Called
+Parent-Component Did Mount Called
+First Child Child-Component Did Mount Called
+
